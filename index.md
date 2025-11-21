@@ -1,8 +1,8 @@
 <html lang="en">
     <style>
         .chat-container-design {
-            width: 500px;
-            height: 700px;
+            width: 300px;
+            height: 500px;
             display: flex;
             background: #fff;
             border-radius: 10px;
@@ -21,8 +21,7 @@
         			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
-                    //embeddedservice_bootstrap.settings.headerEnabled = false; 
-                    const customElement = document.querySelector('div#chat-container-region');
+                    const customElement = document.querySelector('#chat-container-region');
                     console.log("customElement", customElement);
                     embeddedservice_bootstrap.settings.targetElement = customElement;
         
