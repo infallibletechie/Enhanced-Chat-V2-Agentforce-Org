@@ -227,8 +227,6 @@
                 console.log(caseButtonText);
                 launchChat(caseButtonText);
             }); 
-
-            embeddedservice_bootstrap.utilAPI.hideChatButton();
         </script>
     </body>
 </html>
