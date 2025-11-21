@@ -1,8 +1,10 @@
 <html lang="en">
     <style>
         .chat-container-design {
-            width: 500px,
-            height: 700px
+            width: 500px;
+            height: 700px;
+            display: flex;
+            flex-direction: column;
         }
     </style>
     <body>
