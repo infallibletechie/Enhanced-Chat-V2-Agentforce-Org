@@ -1,17 +1,3 @@
-<html>
-    <script type='text/javascript'>
-    	function initEmbeddedMessaging() {
-    		try {
-    			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-    
-    			
-    		} catch (err) {
-    			console.error('Error loading Embedded Messaging: ', err);
-    		}
-    	};
-    </script>
-    
-</html>
 <html lang="en">
     <head>
         <title>Chat</title>
