@@ -29,7 +29,7 @@
         </script>
     </head>
     <body>
-        <div id="chat-container">
+        <div class="chat-container">
         </div>
     </body>
 </html>
