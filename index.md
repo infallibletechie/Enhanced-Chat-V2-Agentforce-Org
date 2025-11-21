@@ -4,7 +4,11 @@
             width: 500px;
             height: 700px;
             display: flex;
+            background: #fff;
+            border-radius: 10px;
+            border: 1px solid #ddd;
             flex-direction: column;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
     <body>
