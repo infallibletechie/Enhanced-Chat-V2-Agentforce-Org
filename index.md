@@ -5,7 +5,7 @@
         		try {
         			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-                    const customElement = document.querySelector('div#chat-container-region');
+                    const customElement = document.querySelector('#chat-container-region');
                     console.log("customElement:", customElement);
                     embeddedservice_bootstrap.settings.targetElement = customElement;
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
