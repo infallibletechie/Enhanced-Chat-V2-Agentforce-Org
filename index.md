@@ -77,10 +77,12 @@
             function initEmbeddedMessaging() {
                 try {
                     embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+                    const myElement = document.querySelector('.chatContainer');
+                    embeddedservice_bootstrap.settings.targetElement = myElement;
+                    embeddedservice_bootstrap.settings.displayMode = 'inline';
                     
                     // Hiding Chat Button on page load
-                    //embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
-                    embeddedservice_bootstrap.settings.displayMode = 'inline';
+                    embeddedservice_bootstrap.settings.hideChatButtonOnLoad = true;
                     
                     /* START:: Conversation Opened Listener */
                     window.addEventListener("onEmbeddedMessagingConversationOpened", (event) => {
@@ -124,6 +126,8 @@
         <div>
             Welcome to our Chat Service!
             <br/><br/>
+        </div>
+        <div class="chatContainer">
         </div>
         <div class="chat-container">
             <div>
