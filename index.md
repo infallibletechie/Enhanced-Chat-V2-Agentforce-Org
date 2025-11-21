@@ -1,6 +1,12 @@
 <html lang="en">
+    <style>
+        .chat-container-design {
+            width: 500px,
+            height: 700px
+        }
+    </style>
     <body>
-        <div id="chat-container-region" style="height: 700px; width: 500px">
+        <div id="chat-container-region" class="chat-container-design">
         </div>
         <script type='text/javascript'>
         	function initEmbeddedMessaging() {
