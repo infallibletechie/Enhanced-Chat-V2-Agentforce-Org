@@ -21,7 +21,7 @@
 
                     const customElement = document.querySelector('#chat-container-region');
                     console.log("customElement:", customElement);
-                    embeddedservice_bootstrap.settings.targetElement = customElement;
+                    //embeddedservice_bootstrap.settings.targetElement = customElement;
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
         
         			embeddedservice_bootstrap.init(
