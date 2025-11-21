@@ -21,9 +21,9 @@
         			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
-                    embeddedservice_bootstrap.settings.headerEnabled = false; 
+                    //embeddedservice_bootstrap.settings.headerEnabled = false; 
                     const customElement = document.querySelector('div#chat-container-region');
-                    console.log("customElement:", customElement);
+                    console.log("customElement", customElement);
                     embeddedservice_bootstrap.settings.targetElement = customElement;
         
         			embeddedservice_bootstrap.init(
