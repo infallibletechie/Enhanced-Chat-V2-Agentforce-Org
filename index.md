@@ -8,6 +8,7 @@
             border-radius: 10px;
             border: 1px solid #ddd;
             flex-direction: column;
+            justify-content: flex-end;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
@@ -21,7 +22,7 @@
 
                     const customElement = document.querySelector('#chat-container-region');
                     console.log("customElement:", customElement);
-                    //embeddedservice_bootstrap.settings.targetElement = customElement;
+                    embeddedservice_bootstrap.settings.targetElement = customElement;
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
         
         			embeddedservice_bootstrap.init(
