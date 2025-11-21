@@ -1,5 +1,7 @@
 <html lang="en">
-    <head>
+    <body>
+        <div id="chat-container-region" style="height: 700px; width: 500px">
+        </div>
         <script type='text/javascript'>
         	function initEmbeddedMessaging() {
         		try {
@@ -28,9 +30,5 @@
             onload='initEmbeddedMessaging()'
             src='https://mduraipand-250112-382-demo.my.site.com/ESWMessagingforInAppa1736797486907/assets/js/bootstrap.min.js'>
         </script>
-    </head>
-    <body>
-        <div id="chat-container-region" style="height: 700px; width: 500px">
-        </div>
     </body>
 </html>
