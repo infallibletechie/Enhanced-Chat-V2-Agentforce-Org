@@ -1,12 +1,19 @@
 <html lang="en">
     <head>
+        <style>
+            .chat-container {
+                height: 700px,
+                width: 1200px
+            }
+        </style>
         <script type='text/javascript'>
         	function initEmbeddedMessaging() {
         		try {
         			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-                    const myElement = document.querySelector('.chat-container');
-                    embeddedservice_bootstrap.settings.targetElement = myElement;
+                    const customElement = document.querySelector('div#chat-container');
+                    console.log("customElement:", customElement);
+                    embeddedservice_bootstrap.settings.targetElement = customElement;
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
         
         			embeddedservice_bootstrap.init(
@@ -29,7 +36,7 @@
         </script>
     </head>
     <body>
-        <div class="chat-container">
+        <div id="chat-container">
         </div>
     </body>
 </html>
