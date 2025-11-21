@@ -22,7 +22,7 @@
 
                     embeddedservice_bootstrap.settings.displayMode = 'inline';
                     embeddedservice_bootstrap.settings.headerEnabled = false; 
-                    const customElement = document.querySelector('#chat-container-region');
+                    const customElement = document.querySelector('div#chat-container-region');
                     console.log("customElement:", customElement);
                     embeddedservice_bootstrap.settings.targetElement = customElement;
         
