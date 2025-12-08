@@ -8,11 +8,11 @@
 				console.log("Inside onEmbeddedMessagingReady");
 	            embeddedservice_bootstrap.utilAPI.setSessionContext([
 	                {
-	                    "name": "_AgentContext",
+	                    "name": "_AgentContext:CaseNumber",
 	                    "value": {
 	                        "valueType": "StructuredValue",
 	                        "value": {
-	                            "CaseNumber": "00001031"
+	                            "00001031"
 	                        }
 	                    }
 	                }
