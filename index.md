@@ -12,7 +12,7 @@
 	                    "value": {
 	                        "valueType": "StructuredValue",
 	                        "value": {
-	                            "currentPage":"infallibletechie.github.io"
+	                            "currentPage":"https://infallibletechie.github.io/Enhanced-Chat-V2-Agentforce-Org/"
 	                        }
 	                    }
 	                }
