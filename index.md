@@ -5,20 +5,20 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			window.addEventListener( "onEmbeddedMessagingReady", () => {  
-				console.log('Inside onEmbeddedMessagingReady');
+				console.log("Inside onEmbeddedMessagingReady");
 	            embeddedservice_bootstrap.utilAPI.setSessionContext([
 	                {
 	                    "name": "_AgentContext",
 	                    "value": {
 	                        "valueType": "StructuredValue",
 	                        "value": {
-	                            "CustomerName": "Magulan"
+	                            "CaseNumber": "00001031"
 	                        }
 	                    }
 	                }
 	            ])
 	            .then(() => {
-	                console.log("Successfully set agent context.");
+	                console.log("Successfully set the agent context!!!");
 	            })
 	            .catch((error) => {
 	                console.log("Error thrown while setting agent context." + error);
