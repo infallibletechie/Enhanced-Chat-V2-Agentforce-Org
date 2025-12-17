@@ -43,7 +43,7 @@
           'Messaging_for_In_App_and_Web',
           'https://mduraipand-250112-382-demo.my.site.com/ESWMessagingforInAppa1736797486907',
           {
-            scrt2URL: 'https://orgfarm-283569e27f-dev-ed.develop.my.salesforce-scrt.com'
+            scrt2URL: 'https://mduraipand-250112-382-demo.my.salesforce-scrt.com'
           }
         );
       } catch (err) {
