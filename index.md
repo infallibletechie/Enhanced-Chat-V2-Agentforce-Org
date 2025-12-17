@@ -7,6 +7,7 @@
 			embeddedservice_bootstrap.settings.displayMode = 'inline';
 			embeddedservice_bootstrap.settings.headerEnabled = false; // Optional
 			const targetChatElement = document.querySelector('div#chat-container');
+			console.log('targetChatElement', targetChatElement);
 			embeddedservice_bootstrap.settings.targetElement = targetChatElement;
 
 			embeddedservice_bootstrap.init(
