@@ -26,12 +26,6 @@
   <div id="chat-container"></div>
 
   <script type='text/javascript'>
-
-    window.addEventListener("beforeunload", () => {
-        if(embeddedservice_bootstrap.utilAPI) {
-            embeddedservice_bootstrap.utilAPI.removeAllComponents()
-        }
-    });
     function initEmbeddedMessaging() {
       try {
         embeddedservice_bootstrap.settings.language = 'en_US';
