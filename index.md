@@ -4,26 +4,10 @@
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-			window.addEventListener( "onEmbeddedMessagingReady", () => {  
-				console.log("Inside onEmbeddedMessagingReady");
-	            embeddedservice_bootstrap.utilAPI.setSessionContext([
-	                {
-	                    "name": "_AgentContext",
-	                    "value": {
-	                        "valueType": "StructuredValue",
-	                        "value": {
-	                            "currentPage":"https://infallibletechie.github.io"
-	                        }
-	                    }
-	                }
-	            ])
-	            .then(() => {
-	                console.log("Successfully set the agent context!!!");
-	            })
-	            .catch((error) => {
-	                console.log("Error thrown while setting agent context." + error);
-	            });
-			} );
+			embeddedservice_bootstrap.settings.displayMode = 'inline';
+			embeddedservice_bootstrap.settings.headerEnabled = false; // Optional
+			const myElement = document.querySelector('.chat-container');
+			embeddedservice_bootstrap.settings.targetElement = myElement;
 
 			embeddedservice_bootstrap.init(
 				'00DKj00000BqFBw',
@@ -39,4 +23,5 @@
 	};
 </script>
 <script type='text/javascript' src='https://mduraipand-250112-382-demo.my.site.com/ESWMessagingforInAppa1736797486907/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<div id="chat-container"></div>
 </html>
