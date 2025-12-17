@@ -1,5 +1,11 @@
 <html>
-<div id="chat-container"></div>
+	<style>
+		.chatContainer {
+			height: 300px;
+			width: 250px;
+		}
+	</style>
+<div id="chat-container" class="chatContainer"></div>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
