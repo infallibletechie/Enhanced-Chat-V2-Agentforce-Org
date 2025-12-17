@@ -1,4 +1,5 @@
 <html>
+<div id="chat-container"></div>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -24,5 +25,4 @@
 	};
 </script>
 <script type='text/javascript' src='https://mduraipand-250112-382-demo.my.site.com/ESWMessagingforInAppa1736797486907/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-<div id="chat-container"></div>
 </html>
